@@ -1,0 +1,11 @@
+#box-1 {
+    position: absolute;
+    left: 1300px;
+  }
+  
+  #box-2 {
+    height: 2em;
+    width: 2em;
+    background-color: #00ffff;
+    position: absolute;
+  }
