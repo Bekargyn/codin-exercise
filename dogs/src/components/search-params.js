@@ -8,7 +8,7 @@ const SearchParams = () => {
   }, []);
 
   async function requestDogs() {
-    const res = await fetch("https://dog.ceo/dog-api/documentation/");
+    const res = await fetch("https://dog.ceo/api/breeds/image/random");
     console.log(res);
 
     const json = await res.json();
